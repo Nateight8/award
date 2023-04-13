@@ -31,7 +31,7 @@ const Navbar = (props: Props) => {
   return (
     <>
       <nav className="border-slate-200 bg-[#35065a] sticky top-0 left-0 right-0 z-50">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className=" flex flex-wrap items-center justify-between mx-auto px-4 sm:px-16 py-4">
           <Link href="/" className="flex items-center">
             <Image src="" className="h-8 mr-3" alt="award logo" />
           </Link>

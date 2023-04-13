@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 
 import Hero from "@/components/hero/Hero";
+import About from "./about/About";
+import Nominate from "./nominate/Nominate";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,7 +12,8 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="flex min-h-screen flex-col items-center justify-between p-24 bg-black "></div>
+      <About />
+      <Nominate />
     </main>
   );
 }
